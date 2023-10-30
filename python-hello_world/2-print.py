@@ -1,2 +1,2 @@
 #!/usr/bin/python3
-python -c PYCODE
+print("\"Programming is like building a multilingual puzzle")
