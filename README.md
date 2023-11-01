@@ -1,1 +1,1 @@
-And this is the home folder for the greatest repository
+This is the repository that contains some new basic tasks of python programming
