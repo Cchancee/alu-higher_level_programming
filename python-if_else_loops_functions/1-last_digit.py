@@ -13,4 +13,4 @@ if number >= 0:
 else:
     x = -number % 10
     y = -x
-    print(f"Last digit of {arg} is {y} and is less than 6 and not 0")
+    print(f"Last digit of {number} is {y} and is less than 6 and not 0")
