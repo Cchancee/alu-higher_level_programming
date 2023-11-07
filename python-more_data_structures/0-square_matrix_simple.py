@@ -1,18 +1,15 @@
 #!/usr/bin/python3
+# Computes the square value of all intergers of a matrix
 
 
 def square_matrix_simple(matrix=[]):
-    matrix = [
-        [1, 2, 3],
-        [4, 5, 6],
-        [7, 8, 9]
-    ]
-    k = []
-    
+    matcpy = matrix.copy
+    matsq = []
     for row in range(len(matrix)):
-        d = [i*i for i in matrix[row]]
-        k.append(d)
-    return k
+        k = [i*i for i in matrix[row]]
+        matsq.append(k)
+    return matsq
+
 
 '''
 matrix = [
