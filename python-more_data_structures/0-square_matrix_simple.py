@@ -12,4 +12,4 @@ def square_matrix_simple(matrix=[]):
     for row in range(len(matrix)):
         d = [i*i for i in matrix[row]]
         k.append(d)
-    print(k)
+    return k
