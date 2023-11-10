@@ -7,7 +7,7 @@ def list_division(my_list_1, my_list_2, list_length):
             qt = my_list_1[i] / my_list_2[i]
         except TypeError:
             print("Wront type")
-          res = 0
+            res = 0
         except ZeroDivisionError:
             print("Division by 0")
             res = 0
