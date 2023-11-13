@@ -2,6 +2,6 @@
 '''Here comes the definition of square class'''
 
 
-class square:
+class Square():
     '''Here comes the definition of square class'''
     pass
