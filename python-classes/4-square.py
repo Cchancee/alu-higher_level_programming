@@ -3,6 +3,7 @@
 
 
 class Square():
+    '''Definition of class here'''
     def __init__(self, size):
         if not isinstance(size, int):
               raise TypeError("size must be an integer")
