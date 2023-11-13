@@ -5,7 +5,7 @@
 class Square():
         '''This is class definition'''
         def __init__(self, size=0):
-              '''Defining constructor'''
+                '''Defining constructor'''
 
               '''Validating the private instance attribute'''
               if not isinstance(size, int):
