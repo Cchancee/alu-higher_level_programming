@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-'''Definition of Rectangle Class'''
+'''Dlfjkadjflasdkfldsefinition of Rectangle Class'''
 
 
 class Rectangle:
