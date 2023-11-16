@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+'''And here's the module definition'''
 
 
 class Rectangle:
