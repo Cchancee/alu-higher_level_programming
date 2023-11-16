@@ -6,11 +6,11 @@ class Rectangle:
     """Represent a rectangle."""
 
     def __init__(self, width=0, height=0):
-        """Initiation of a new Rectangle
-        :param width: The width of the initiated rectangle
-        :type width: int
-        :param height: The height of the initiated rectangle
-        :typr height: int
+        """Initialize a new Rectangle.
+
+        Args:
+            width (int): The width of the new rectangle.
+            height (int): The height of the new rectangle.
         """
         self.width = width
         self.height = height
@@ -65,4 +65,14 @@ class Rectangle:
             if i != self.__height - 1:
                 rect.append("\n")
         return ("".join(rect))
+
+    def __repr__(self):
+        """Return the string representation of the Rectangle."""
+        rect = "Rectangle(" + str(self.__width)
+        rect += ", " + str(self.__height) + ")"
+        return (rect)
+
+    def __del__(self):
+        """Print a message for every deletion of a Rectangle."""
+        print("Bye rectangle...")
 # comment here

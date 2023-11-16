@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-'''Module definition'''
+"""Define a Rectangle Class"""
 
 
-class Rectangle:
-    '''Here's the definition of Rectangle'''
+class Rectangle():
+    """Represent a Rectangle"""
+# comment here
