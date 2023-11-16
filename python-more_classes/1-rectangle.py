@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-'''Dlfjkadjflasdkfldsefinition of Rectangle Class'''
+"""This is the module definition"""
 
 
 class Rectangle:
