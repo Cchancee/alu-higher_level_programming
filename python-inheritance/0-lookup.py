@@ -2,6 +2,6 @@
 """Defines a lookup funtion"""
 
 
-class lookup(obj):
-    '''returning all the attributes and methods of an object'''
-    return(dir(obj))
+def lookup(obj):
+    """Return a list of an available attributes and method of an object"""
+    return (dir(obj))
