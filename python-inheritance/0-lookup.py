@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-'''define the module'''
+"""define the module"""
 
 
 class lookup(obj):
